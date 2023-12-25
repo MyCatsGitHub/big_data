@@ -42,3 +42,87 @@
 В конце удалим созданные нами узлы из mygroup
 
 ![](https://github.com/MyCatsGitHub/big_data/blob/main/L4/screen/9.JPG?raw=true)
+
+
+## Упражнения
+
+### Animal task
+
+```
+Philosopher 0 is going to eat
+Philosopher 4 is going to eat
+Philosopher 1 is going to eat
+Philosopher 2 is going to eat
+Philosopher 3 is going to eat
+Philosopher 2 picked up the left fork
+Philosopher 2 picked up the right fork
+Philosopher 5 picked up the left fork
+Philosopher 5 picked up the right fork
+Philosopher 4 picked up the left fork
+Philosopher 5 put the right fork
+Philosopher 5 put the loft fork and finished eating
+Philosopher 4 picked up the right fork
+Philosopher 5 is thinking
+Philosopher 1 picked up the left fork
+Philosopher 2 put the right fork
+Philosopher 2 put the loft fork and finished eating
+Philosopher 1 picked up the right fork
+Philosopher 3 picked up the left fork
+Philosopher 2 is thinking
+Philosopher 4 put the right fork
+Philosopher 1 put the right fork
+Philosopher 1 put the loft fork and finished eating
+Philosopher 4 put the loft fork and finished eating
+Philosopher 3 picked up the right fork
+Philosopher 1 is thinking
+Philosopher 4 is thinking
+Philosopher 4 is going to eat
+Philosopher 5 picked up the left fork
+Philosopher 5 picked up the right fork
+Philosopher 1 is going to eat
+Philosopher 2 picked up the left fork
+Philosopher 5 put the right fork
+Philosopher 5 put the loft fork and finished eating
+Philosopher 1 picked up the left fork
+Philosopher 5 is thinking
+Philosopher 3 is going to eat
+Philosopher 3 put the right fork
+Philosopher 3 put the loft fork and finished eating
+Philosopher 2 picked up the right fork
+Philosopher 3 is thinking
+Philosopher 4 picked up the left fork
+Philosopher 4 picked up the right fork
+Philosopher 2 put the right fork
+Philosopher 2 put the loft fork and finished eating
+Philosopher 1 picked up the right fork
+Philosopher 2 is thinking
+Philosopher 2 is going to eat
+Philosopher 3 picked up the left fork
+Philosopher 1 put the right fork
+Philosopher 1 put the loft fork and finished eating
+Philosopher 1 is thinking
+Philosopher 4 put the right fork
+Philosopher 4 put the loft fork and finished eating
+Philosopher 3 picked up the right fork
+Philosopher 4 is thinking
+Philosopher 3 put the right fork
+Philosopher 3 put the loft fork and finished eating
+Philosopher 3 is thinking
+```
+
+### Двуфазный коммит
+```
+Waiting others clients: []
+Client 1 request commit
+Client 0 request rollback
+Client 2 request rollback
+Client 4 request commit
+Client 3 request commit
+Check clients
+Client 0 do commit
+Client 1 do commit
+Client 2 do commit
+Client 3 do commit
+Client 4 do commit
+Waiting others clients: []
+
